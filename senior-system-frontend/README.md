@@ -90,17 +90,16 @@ Esta seção foi movida para cá: https://facebook.github.io/create-react-app/do
 Esta seção foi movida para cá: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 senior-system-api
-├── senior-system-frontend
-│   ├── public
-│   │   ├── index.html
-│   │   └── ...
-│   ├── src
-│   │   ├── components
-│   │   │   ├── PayrollList.js
-│   │   │   └── PayrollList.css
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   └── index.js
-│   ├── README.md
-│   └── SeniorSystemAPI.postman_collection.json
-└── package.json
+senior-system-frontend
+public
+index.html
+src
+components
+PayrollList.js
+PayrollList.css
+App.js
+App.css
+index.js
+README.md
+SeniorSystemAPI.postman_collection.json
+package.json
