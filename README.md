@@ -1,5 +1,7 @@
 ## API do Sistema Sênior
-Este projeto é uma API Node.js desenvolvida para integrar com o sistema Sênior, focando nos módulos de Folha de Pagamento, Ponto Eletrônico e Recrutamento e Seleção. Ele fornece uma solução de backend robusta para gerenciar operações de folha de pagamento, rastreamento de frequência e processos de recrutamento.
+Este projeto é uma API Node.js desenvolvida para integrar com o sistema Sênior, focando nos módulos de Folha de Pagamento, 
+Ponto Eletrônico e Recrutamento e Seleção. Ele fornece uma solução de backend robusta para gerenciar operações de folha de pagamento,
+rastreamento de frequência e processos de recrutamento.
 
 Índice
 Instalação
