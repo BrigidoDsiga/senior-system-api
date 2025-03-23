@@ -29,27 +29,26 @@ Uso
 Para iniciar o servidor, execute:
 npm start
 
-A API estará disponível em: http://localhost:3000.
+## A API estará disponível em: http://localhost:3000.
 
 Endpoints da API
+Módulo de Folha de Pagamento
+## GET /payroll - Recupera informações da folha de pagamento.
+## POST /payroll - Cria uma nova entrada de folha de pagamento.
+## PUT /payroll/:id - Atualiza uma entrada de folha de pagamento existente.
+## DELETE /payroll/:id - Exclui uma entrada de folha de pagamento.
 
-## Módulo de Folha de Pagamento
-GET /payroll - Recupera informações da folha de pagamento.
-POST /payroll - Cria uma nova entrada de folha de pagamento.
-PUT /payroll/:id - Atualiza uma entrada de folha de pagamento existente.
-DELETE /payroll/:id - Exclui uma entrada de folha de pagamento.
+Módulo de Ponto Eletrônico
+## GET /electronic-points - Recupera registros de ponto eletrônico.
+## POST /electronic-points/clock-in - Registra a entrada para frequência.
+## POST /electronic-points/clock-out - Registra a saída para frequência.
+## GET /electronic-points/attendance-records - Obtém registros de frequência.
 
-## Módulo de Ponto Eletrônico
-GET /electronic-points - Recupera registros de ponto eletrônico.
-POST /electronic-points/clock-in - Registra a entrada para frequência.
-POST /electronic-points/clock-out - Registra a saída para frequência.
-GET /electronic-points/attendance-records - Obtém registros de frequência.
-
-## Módulo de Recrutamento e Seleção
-GET /candidates - Recupera uma lista de candidatos.
-POST /candidates - Cria uma nova entrada de candidato.
-PUT /candidates/:id - Atualiza uma entrada de candidato existente.
-DELETE /candidates/:id - Exclui uma entrada de candidato.
+Módulo de Recrutamento e Seleção
+## GET /candidates - Recupera uma lista de candidatos.
+## POST /candidates - Cria uma nova entrada de candidato.
+## PUT /candidates/:id - Atualiza uma entrada de candidato existente.
+## DELETE /candidates/:id - Exclui uma entrada de candidato.
 
 ## Contribuição
 Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma issue para quaisquer melhorias ou correções de bugs.
