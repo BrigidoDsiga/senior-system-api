@@ -5,7 +5,7 @@ Ponto Eletrônico e processos de recrutamento.
 
 Clone o repositório: git clone <https://github.com/BrigidoDsiga/senior-system-api>
 
-## A API estará disponível em: http://localhost:3000.
+A API estará disponível em: http://localhost:3000.
 
 Endpoints da API
 Módulo de Folha de Pagamento
