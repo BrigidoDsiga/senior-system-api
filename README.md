@@ -3,7 +3,7 @@ Este projeto é uma API Node.js desenvolvida para integrar com o sistema Sênior
 Ponto Eletrônico e Recrutamento e Seleção. Ele fornece uma solução de backend robusta para gerenciar operações de folha de pagamento,
 Ponto Eletrônico e processos de recrutamento.
 
-## Clone o repositório: git clone <https://github.com/BrigidoDsiga/senior-system-api>
+Clone o repositório: git clone <https://github.com/BrigidoDsiga/senior-system-api>
 
 ## A API estará disponível em: http://localhost:3000.
 
