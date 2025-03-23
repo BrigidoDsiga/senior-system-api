@@ -1,0 +1,21 @@
+{
+  "name": "senior-system-api",
+  "version": "1.0.0",
+  "description": "API para implementação e customização do sistema Sênior",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.21.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "ISC"
+}

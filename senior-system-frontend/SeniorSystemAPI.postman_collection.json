@@ -1,0 +1,121 @@
+{
+    "info": {
+      "name": "Senior System API",
+      "_postman_id": "your-postman-id",
+      "description": "Coleção de requisições para a API do Sistema Senior",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Obter todas as folhas de pagamento",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/payroll",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["payroll"]
+          },
+          "description": "Recupera todas as folhas de pagamento."
+        }
+      },
+      {
+        "name": "Obter uma folha de pagamento por ID",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/payroll/:id",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["payroll", ":id"],
+            "variable": [
+              {
+                "key": "id",
+                "value": "1"
+              }
+            ]
+          },
+          "description": "Recupera uma folha de pagamento específica pelo ID."
+        }
+      },
+      {
+        "name": "Criar uma nova folha de pagamento",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"employeeName\": \"John Doe\",\n    \"salary\": 5000\n  }"
+          },
+          "url": {
+            "raw": "http://localhost:3000/payroll",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["payroll"]
+          },
+          "description": "Cria uma nova folha de pagamento."
+        }
+      },
+      {
+        "name": "Atualizar uma folha de pagamento",
+        "request": {
+          "method": "PUT",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"employeeName\": \"John Doe\",\n    \"salary\": 5500\n  }"
+          },
+          "url": {
+            "raw": "http://localhost:3000/payroll/:id",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["payroll", ":id"],
+            "variable": [
+              {
+                "key": "id",
+                "value": "1"
+              }
+            ]
+          },
+          "description": "Atualiza uma folha de pagamento existente."
+        }
+      },
+      {
+        "name": "Excluir uma folha de pagamento",
+        "request": {
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/payroll/:id",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["payroll", ":id"],
+            "variable": [
+              {
+                "key": "id",
+                "value": "1"
+              }
+            ]
+          },
+          "description": "Exclui uma folha de pagamento existente."
+        }
+      }
+    ]
+  }
