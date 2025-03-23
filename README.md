@@ -3,23 +3,23 @@ Este projeto é uma API Node.js desenvolvida para integrar com o sistema Sênior
 Ponto Eletrônico e Recrutamento e Seleção. Ele fornece uma solução de backend robusta para gerenciar operações de folha de pagamento,
 Ponto Eletrônico e processos de recrutamento.
 
-Índice
-Instalação
-Uso
-Endpoints da API
-Contribuição
-Licença
-Instalação
-Clone o repositório:
+## Índice
+## Instalação
+## Uso
+## Endpoints da API
+## Contribuição
+## Licença
+## Instalação
+## Clone o repositório:
 
-git clone <url-do-repositório>
-Navegue até o diretório do projeto:
+## git clone <https://github.com/BrigidoDsiga/senior-system-api>
+## Navegue até o diretório do projeto:
 
-cd senior-system-api
-Instale as dependências:
-npm install
+## cd senior-system-api
+## Instale as dependências:
+## npm install
 
-Crie um arquivo .env no diretório raiz e adicione sua configuração de banco de dados:
+## Crie um arquivo .env no diretório raiz e adicione sua configuração de banco de dados:
 
 DB_HOST=seu_host_do_banco
 DB_USER=seu_usuário_do_banco
